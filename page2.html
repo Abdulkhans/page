@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #box2 {
+        width: 100%;
+        height: 100%;
+        background-color: red;
+    }
+    
+    #page2 {
+        width: 55%;
+        height: 100vh;
+        background-color: #b7f3f3;
+        justify-content: center;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        /* margin-top: 10px; */
+        padding: 25px;
+    }
+    
+    .form input {
+        width: 350px;
+        height: 25px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    
+    label input {
+        margin-top: 5px;
+    }
+</style>
+
+<body>
+    <div id="box2">
+        <form id="page2">
+            <div class="form">
+                <label>Institution <br>
+                <input type="text">
+            </label>
+            </div>
+            <br>
+            <label for="cars">Choose Bord</label>
+
+            <select name="cars" id="cars">
+              <option value="volvo">Select</option>
+              <option value="volvo">CBSE</option>
+              <option value="saab">ICSC</option>
+              <option value="mercedes">State bord</option>
+              <option value="audi">other</option>
+            </select>
+            <div class="form"><br>
+                <label>Score
+                 <br>
+             <input type="text" placeholder="Percentage">
+                </label>
+            </div><br>
+
+            <label for="cars">Study</label>
+
+            <select name="cars" id="cars">
+              <option value="volvo">select</option>
+              <option value="volvo">Pursuing</option>
+              <option value="saab">Gradute</option>
+            </select>
+
+            <div class="form"><br>
+                <label>Currently Education Institution Name
+                 <br>
+             <input type="text" placeholder="Enter">
+                </label>
+            </div>
+
+            <div class="form"><br>
+                <label>Overall percentage
+                 <br>
+             <input type="text" placeholder="Percentage">
+                </label>
+            </div>
+            <br>
+            <label for="cars">Backlog</label>
+            <select name="cars" id="cars">
+                    <option>backlog</option>
+                  <option value="volvo">0</option>
+                  <option value="volvo">1</option>
+                  <option value="saab">2</option>
+                  <option value="volvo">3</option>
+                  <option value="volvo">4</option>
+                  <option value="saab">5</option>
+                  <option value="saab">6</option>
+                  <option value="saab">No</option>
+                </select><br>
+
+            <label>a file
+                <input type="file">
+            </label>
+
+        </form>
+    </div>
+</body>
+
+</html>
